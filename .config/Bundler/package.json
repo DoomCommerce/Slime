@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^20.8.3",
+        "bun-types": "^1.0.4"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "bun": "^1.0.4",
+        "chokidar": "^3.5.3"
+    }
+}

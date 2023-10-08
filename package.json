@@ -1,0 +1,9 @@
+{
+	"private" : true ,
+
+    "scripts" : {
+        "prepare" : "bash .config/Tasks/Prepare.sh" ,
+        "shop" : "bash .config/Tasks/Shop.sh" ,
+        "dev" : "bash .config/Tasks/Dev.sh"
+	}
+}

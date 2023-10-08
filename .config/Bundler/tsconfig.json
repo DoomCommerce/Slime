@@ -1,0 +1,31 @@
+{
+    "compilerOptions" : {
+
+        "forceConsistentCasingInFileNames" : true ,
+        "allowSyntheticDefaultImports" : true ,
+        "allowImportingTsExtensions" : true ,
+        "downlevelIteration" : true ,
+        "skipLibCheck" : true ,
+        "composite" : true ,
+        "allowJs" : true ,
+        "strict" : true ,
+        "noEmit" : true ,
+
+        "moduleResolution" : "bundler" ,
+        "moduleDetection" : "force" ,
+        "module" : "esnext" ,
+        "target" : "esnext" ,
+
+        "lib" : [ "DOM" , "esnext" ] ,
+
+        "paths" : {},
+
+        "types": [
+            "bun-types"
+        ]
+    },
+
+    "include" : [
+        "**/*.ts"
+    ]
+}
