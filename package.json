@@ -1,0 +1,9 @@
+{
+    "private" : true ,
+
+    "scripts" : {
+        "watch" : "bash .config/Tasks/Watch.sh" ,
+        "shop" : "bash .config/Tasks/Shop.sh" ,
+        "dev" : "bash .config/Tasks/Dev.sh"
+    }
+}
